@@ -24,7 +24,14 @@ Design rules (see README):
 
 from __future__ import annotations
 
-from .compress import CompressResult, compress
+from .compactors import is_columnar, restore_columnar
+from .compress import CompressConfig, CompressResult, compress
 
-__all__ = ["compress", "CompressResult"]
+__all__ = [
+    "compress",
+    "CompressConfig",
+    "CompressResult",
+    "restore_columnar",
+    "is_columnar",
+]
 __version__ = "0.1.0"
