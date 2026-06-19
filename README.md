@@ -72,11 +72,17 @@ No marketing numbers — these come straight from the benchmark script.
 
 ## Install
 
+The PyPI package is **`foldback-ai`**; the import name is **`foldback`**.
+
 ```bash
-pip install foldback                 # zero dependencies
-pip install "foldback[exact]"        # + tiktoken for exact token counts
-pip install "foldback[anthropic]"    # + Anthropic SDK for the wrapper
-pip install "foldback[openai]"       # + OpenAI SDK for the wrapper
+pip install foldback-ai                 # zero dependencies
+pip install "foldback-ai[exact]"        # + tiktoken for exact token counts
+pip install "foldback-ai[anthropic]"    # + Anthropic SDK for the wrapper
+pip install "foldback-ai[openai]"       # + OpenAI SDK for the wrapper
+```
+
+```python
+from foldback import compress           # import name stays `foldback`
 ```
 
 ## Use it
