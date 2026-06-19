@@ -4,6 +4,16 @@ All notable changes to FoldBack are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/) and the project adheres to
 [Semantic Versioning](https://semver.org/).
 
+## [0.1.1] — 2026-06-20
+
+### Changed
+- Author metadata set to Sudarshan Chaudhari (shows on the PyPI page).
+- README: added Author, License, and Acknowledgments (credit to
+  `chopratejas/headroom`) sections.
+- NOTICE copyright updated.
+
+No code or behavior changes from 0.1.0.
+
 ## [0.1.0] — 2026-06-20
 
 First production-ready release.

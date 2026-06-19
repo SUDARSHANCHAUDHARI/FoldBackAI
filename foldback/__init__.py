@@ -34,4 +34,4 @@ __all__ = [
     "restore_columnar",
     "is_columnar",
 ]
-__version__ = "0.1.0"
+__version__ = "0.1.1"
