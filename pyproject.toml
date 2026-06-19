@@ -7,7 +7,7 @@ build-backend = "hatchling.build"
 #   pip install foldback-ai   ->   from foldback import compress
 [project]
 name = "foldback-ai"
-version = "0.1.0"
+version = "0.1.1"
 description = "Lossless context compression for LLM agents. Fold it down, fold it back. No data dropped, prompt cache preserved."
 readme = "README.md"
 requires-python = ">=3.10"
