@@ -147,6 +147,14 @@ If FoldBack saves you tokens, a ⭐ on the
 
 <sub>Developed with Claude Code (Opus 4.8).</sub>
 
+## Acknowledgments
+
+FoldBack's design was informed by studying [chopratejas/headroom](https://github.com/chopratejas/headroom)
+— a more ambitious context-compression project. FoldBack deliberately takes a
+narrower, library-only path (no proxy, lossless-first, prompt-cache-preserving)
+to avoid the cache-busting and lossy-retrieval pitfalls that project documented
+in its own realignment notes. Credit to its authors for mapping the problem space.
+
 ## License
 
 Apache 2.0 © Sudarshan Chaudhari / SudarshanTechLabs. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
