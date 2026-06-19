@@ -136,4 +136,17 @@ never corrupt the wire.
 - [ ] CSV / Markdown-table input detection
 - [ ] Rust core for the columnar path (only if profiling demands it)
 
-Apache 2.0.
+## Author
+
+Built and maintained by **Sudarshan Chaudhari**
+([@SUDARSHANCHAUDHARI](https://github.com/SUDARSHANCHAUDHARI),
+sunny.sudarshan@gmail.com) — SudarshanTechLabs, Bangkok.
+
+If FoldBack saves you tokens, a ⭐ on the
+[repo](https://github.com/SUDARSHANCHAUDHARI/FoldBackAI) is appreciated.
+
+<sub>Developed with Claude Code (Opus 4.8).</sub>
+
+## License
+
+Apache 2.0 © Sudarshan Chaudhari / SudarshanTechLabs. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
