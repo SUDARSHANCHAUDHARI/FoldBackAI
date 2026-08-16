@@ -2,11 +2,12 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-# Distribution name is "foldbackai" ("foldback" is taken on PyPI by an
-# unrelated nagios package). The import package is still `foldback`:
-#   pip install foldbackai   ->   from foldback import compress
+# Distribution name is "foldback-ai" ("foldback" is taken on PyPI by an
+# unrelated nagios package; the hyphen-less "foldbackai" is blocked by PyPI's
+# too-similar-name filter against this same project). The import package is
+# still `foldback`:  pip install foldback-ai  ->  from foldback import compress
 [project]
-name = "foldbackai"
+name = "foldback-ai"
 version = "0.1.1"
 description = "Lossless context compression for LLM agents. Fold it down, fold it back. No data dropped, prompt cache preserved."
 readme = "README.md"
