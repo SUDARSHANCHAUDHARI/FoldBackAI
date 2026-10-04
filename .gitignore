@@ -13,3 +13,5 @@ build/
 .env
 .env.*
 !.env.example
+
+repoguard-results/
